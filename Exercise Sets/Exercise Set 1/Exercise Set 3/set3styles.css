@@ -1,6 +1,5 @@
 
 body {
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +46,7 @@ ion-icon {
 
 
 .card p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 5px 0;
     font-size: 16px;
     color: #666;
