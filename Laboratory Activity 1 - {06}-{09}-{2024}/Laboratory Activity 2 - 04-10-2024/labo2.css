@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/assets/GradientBG.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.vision-board {
+    width: 85%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+
+.title-container {
+    text-align: center;
+    background-color: #690a7c;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.title-container h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    color: #6bb5e6;
+    letter-spacing: 1px;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.todo-container {
+    width: 40%;
+    flex: 1;
+    background-color: #067192d3;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.todo-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #690a7c;
+}
+
+.todo-container ul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: square;
+    padding-left: 20px;
+    color: #690a7cd5;
+}
+
+.todo-container ul li {
+    font-size: 18px;
+    margin-bottom: 5px; 
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.album-image {
+    width: 150px;     
+    height: 150px;   
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+.large-image {
+    width: 48%;
+    height: 250px;
+}
+
+.medium-image {
+    width: 48%;
+    height: 200px;
+}
+
+.goals-inspiration-container {
+    display: flex; 
+    justify-content: space-around;
+    width: 100%; 
+    gap: 20px
+}
+
+.goals-container {
+    width: 30%; 
+    background-color: #37bb72ab;
+    padding: 20px;
+    border-radius: 15px;
+    color: rgb(245, 229, 137);
+}
+
+.goals-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+.inspiration-container {
+    width: 70%; 
+    background-color: #5b0e8fc0;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.inspiration-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.inspiration-container p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
