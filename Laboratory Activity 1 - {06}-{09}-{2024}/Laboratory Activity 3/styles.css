@@ -1,0 +1,68 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('lab3BG.png');
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 95%;
+    max-width: 500px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #ff5e78;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ffb3c1;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fef6f9;
+    resize: none;
+    color: #333;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #ff8fa3;
+    box-shadow: 0px 0px 10px rgba(255, 143, 163, 0.5);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.stat-box {
+    flex: 1;
+    background: #ffe3e9;
+    color: #ff5e78;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box:hover {
+    background: #ffccd7;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
